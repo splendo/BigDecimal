@@ -1,3 +1,5 @@
+Forked from https://github.com/Yaffle/BigDecimal
+
 # BigDecimal
 a polyfill for decimal propocal - https://github.com/tc39/proposal-decimal
 It is implemented on the top of native BigInt.
@@ -6,7 +8,7 @@ It can be compiled using https://www.npmjs.com/package/babel-plugin-transform-bi
 # Usage:
 
 ## Installation:
-`npm install @yaffle/bigdecimal`
+`npm install @splendo/bigdecimal`
 
 ## Type conversion:
 
@@ -66,7 +68,7 @@ Similar to BigDecimal, but uses base 2.
 ## Example:
 ```javascript
 
-import {BigDecimal} from "./node_modules/@yaffle/bigdecimal/BigDecimal.js";
+import {BigDecimal} from "./node_modules/@splendo/bigdecimal/BigDecimal.js";
 
 const rounding = {maximumSignificantDigits: 1000, roundingMode: "half-even"};
 let pi = BigDecimal.multiply(BigDecimal.BigDecimal(4), BigDecimal.atan(BigDecimal.BigDecimal(1), rounding));

@@ -1,5 +1,5 @@
 {
-  "name": "@yaffle/bigdecimal",
+  "name": "@splendo/bigdecimal",
   "version": "1.0.25",
   "description": "Arbitrary precision decimal arithmetic library. Polyfill for decimal proposal. Implemented on the top of BigInt.",
   "main": "BigDecimal.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yaffle/BigDecimal.git"
+    "url": "git+https://github.com/splendo/BigDecimal.git"
   },
   "keywords": [
     "arbitrary",
@@ -23,10 +23,9 @@
   "author": "Viktor Mukhachev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Yaffle/BigDecimal/issues"
+    "url": "https://github.com/splendo/BigDecimal/issues"
   },
-  "homepage": "https://github.com/Yaffle/BigDecimal#readme",
-  "type": "module",
+  "homepage": "https://github.com/splendo/BigDecimal#readme",
   "devDependencies": {
     "decimal.js": "^10.2.0"
   }

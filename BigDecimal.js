@@ -956,4 +956,4 @@ BigDecimal.cbrt = function (x, rounding) {
 const BigDecimal = factory(10);
 const BigFloat = factory(2);
 
-export {BigDecimal, BigFloat};
+module.exports = {BigDecimal, BigFloat};
