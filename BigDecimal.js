@@ -412,6 +412,7 @@ if (BASE !== 2) {
   const y = b.exponent <= a.exponent ? b.significand : bigIntScale(b.significand, diff(b.exponent, a.exponent));
   return x < y ? -1 : (x > y ? +1 : 0);
 }
+BigDecimal.compare = compare;
 BigDecimal.lessThan = function (a, b) {
   return compare(a, b) < 0;
 };
